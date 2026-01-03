@@ -1,6 +1,6 @@
 document.getElementById("subscribeBtn").addEventListener("click", async () => {
   try {
-    const response = await fetch("https://YOUR-BACKEND-URL/create-checkout-session", {
+    const response = await fetch("https://miller-brand-scaling-backend.onrender.com/create-checkout-session", {
       method: "POST",
     });
 
@@ -15,3 +15,4 @@ document.getElementById("subscribeBtn").addEventListener("click", async () => {
     alert("Failed to connect to server.");
   }
 });
+
